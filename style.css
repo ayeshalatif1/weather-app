@@ -2,3 +2,118 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #F9F7FE;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    background-color: #FFFFFF;
+    max-width: 45%;
+    margin: 100px auto;
+    align-items: center;
+    padding: 10px 30px;
+    box-shadow: 20px 30px 20px rgba(65, 50, 100, 0.08);
+    border-radius: 15px;
+
+}
+header{
+    border-bottom: 1px solid #F9F7FE;
+}
+form{
+    display: flex;
+}
+input{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#city-input{
+    background-color: #F9F7FE;
+    width: 80%;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+}
+#city-input:active{
+    background-color: #E8F0FE;
+}
+#search-btn{
+    background-color: #885DF1;
+    padding: 15px 20px;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: 1px 0px 1px #885DF1;
+
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+h1{
+    margin: 0;
+    font-size: 38px;
+    line-height: 48px;
+    padding-bottom: 5px;
+
+}
+main p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #27214266;
+    font-weight: 500;
+}
+strong{
+    color: #f65282;
+    font-weight: 700;
+}
+footer{
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 0px;
+}
+footer p{
+    color: #0009;
+    font-weight: 400;
+    font-size: 14px;
+}
+footer a{
+    color: #885df1;
+    font-size: 14px;
+    font-weight: 400;
+}
+.temp-wrapper{
+    display: flex;
+    /* border: 1px solid red; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.temp{
+    font-size: 88px;
+    font-weight: bold;
+}
+.icon{
+    font-size: 44px;
+    align-self: center;
+}
+.unit{
+    margin-top: 15px;
+    font-size: 28px;
+}
+
+@media (max-width: 900px)
+{
+    .container{
+        max-width: 90%;
+    }
+    main{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        text-align: center;
+    }
+}
