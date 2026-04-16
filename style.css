@@ -86,15 +86,12 @@ footer a{
 }
 .temp-wrapper{
     display: flex;
-    /* border: 1px solid red; */
-    /* align-items: center; */
-    /* justify-content: center; */
 }
 .temp{
     font-size: 88px;
     font-weight: bold;
 }
-.icon{
+#icon{
     font-size: 44px;
     align-self: center;
 }

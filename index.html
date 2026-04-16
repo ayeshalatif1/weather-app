@@ -17,7 +17,7 @@
     <div class="container">
         <header>
             <div>
-                <form action="">
+                <form action="" id="input-form">
                     <input type="text" name="city" id="city-input" placeholder="Enter a City">
                     <input type="submit" id="search-btn" value="Search">
                 </form>
@@ -25,29 +25,29 @@
         </header>
         <main>
             <div>
-                <h1>France</h1>
+                <h1 id="city-name">France</h1>
                 <p>
-                    <span class="date">Tuesday 14:49</span>, <span class="condition">scattered clouds</span>
+                    <span id="date">Tuesday 14:49</span>, <span id="condition">scattered clouds</span>
                     <br>
-                    Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong>
+                    Humidity: <strong id="humidity">66%</strong>, Wind: <strong id="wind">3.13km/h</strong>
                 </p>
             </div>
 
             <div class="temp-wrapper">
-                <div class="icon">🌤️</div>
-                <div class="temp">12</div>
+                <div id="icon">🌤️</div>
+                <div class="temp" id="temp">12</div>
                 <div class="unit">°C</div>
             </div>
         </main>
         <footer>
-            <p>This page is coded by <a href="">Ayesha Latif</a>. The code is avilable on <a href="">GitHub</a> and
+            <p>This page is coded by <a href="">Ayesha Latif</a>. The code is avilable on <a href="https://github.com/ayeshalatif1/weather-app">GitHub</a> and
                 hosted on <a href="">Netlify</a></p>
         </footer>
     </div>
 
 
 
-    <script src="style.css"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
