@@ -96,7 +96,7 @@ function displayForecast(data) {
             if(index < 5){
             //to overcome overwriting
             forecastHTML = forecastHTML +
-                `<div class="day"> <p id="day-name">${formatForecastDay(day.time)}</p> <div id="f-icon"><img src="${day.condition.icon_url}"></div> <p id="forecast"> <span id="max">${Math.round(day.temperature.maximum)}°</span> <span id="min">${Math.round(day.temperature.maximum)}°</span> </p> </div>`
+                `<div class="day"> <p id="day-name">${formatForecastDay(day.time)}</p> <div id="f-icon"><img src="${day.condition.icon_url}"></div> <p id="forecast"> <span id="max">${Math.round(day.temperature.maximum)}°</span> <span id="min">${Math.round(day.temperature.minimum)}°</span> </p> </div>`
 
 }})
         forecastDisplay.innerHTML = forecastHTML
