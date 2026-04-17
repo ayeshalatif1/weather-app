@@ -14,7 +14,6 @@ body{
     border-radius: 15px;
     background-color: #FFFFFF;
     box-shadow: 20px 30px 20px rgba(65, 50, 100, 0.08);
-    border: 1px solid red;
 }
 header{
     border-bottom: 1px solid #F9F7FE;
